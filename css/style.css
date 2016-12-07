@@ -98,17 +98,12 @@ p{
 
 .header{
 	text-align:center;
-	background-image:url(../img/um_background.jpg);
-	background-size: cover;
-	background-repeat:   no-repeat;
-    background-position: top center;
-	padding:380px 200px;
+	background:url(../img/pw_maze_black_2X.png) left top repeat;
+	padding:280px 0;
 }
 .logo{
 	width:130px;
 	margin:0 auto 35px;
-	margin-top: 5px;
-
 }
 .header h1{
 	font-family: 'Montserrat',sans-serif;
