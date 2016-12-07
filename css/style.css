@@ -97,20 +97,18 @@ p{
 ---------------------------------*/
 
 .header{
-	margin-top: 0;
-	margin-bottom: 10;
-	text-align: center;
-	background: url(../img/background.jpg) no-repeat center;
-	background-size: 100% 120%;
-	padding-bottom: 
-}
-
-.hometext{
-	padding-top: 375px;
+	text-align:center;
+	background-image:url(../img/um_background.jpg);
+	background-size: cover;
+	background-repeat:   no-repeat;
+    background-position: top center;
+	padding:380px 200px;
 }
 .logo{
 	width:130px;
 	margin:0 auto 35px;
+	margin-top: 5px;
+
 }
 .header h1{
 	font-family: 'Montserrat',sans-serif;
@@ -138,7 +136,7 @@ p{
 	margin:0 5px 0 0;
 	padding:0 0 0 15px;
 }
-.we-create li: first-child{
+.we-create li:first-child{
 	background:none;
 }
 
@@ -599,17 +597,19 @@ border: 2px solid #fff;
 /* Talk Business
 ---------------------------------*/
 .business-talking{
+	background:url(../img/section-bg2.jpg) top center no-repeat;
+	background-size:cover;
+	padding:60px 0 10px;
 	text-align:center;
 }
-
 .business-talking h2{
 	font-family: 'Montserrat', sans-serif;
 	font-weight:700;
 	padding:0;
-	margin: 10px 0 70px;
-	text-transform: uppercase;
+	margin:20px 0 70px;
+	text-transform:uppercase;
 	font-size:42px;
-	color: black;
+	color:#fff;
 }
 
 
@@ -753,8 +753,7 @@ border: 2px solid #fff;
 	margin:15px auto 35px;
 	width: 76px;
 }
-.copyright {
-	padding-top: 50px;
+.copyright{
 	color:#cccccc;
 	font-size:14px;
 	display:block;
